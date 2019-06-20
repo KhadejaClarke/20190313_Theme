@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Custom theme 1 -->
+    <style name="AppTheme1" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/dark_red</item>
+        <item name="colorAccent">@color/gray</item>
+
+        <item name="android:windowBackground">@color/soothing_blue</item>
+        <item name="buttonStyle">@style/BeatBoxButton1</item>
+    </style>
+
+    <style name="BeatBoxButton1" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/dark_blue</item>
+    </style>
+
+    <!-- Custom theme 2 -->
+    <style name="AppTheme2" parent="Theme.AppCompat.DayNight">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/nude</item>
+        <item name="colorPrimaryDark">@color/goldenrod</item>
+        <item name="colorAccent">@color/navy</item>
+
+        <item name="android:windowBackground">@color/teal</item>
+        <item name="buttonStyle">@style/BeatBoxButton2</item>
+    </style>
+
+    <style name="BeatBoxButton2" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/aqua</item>
+    </style>
+
+
+</resources>

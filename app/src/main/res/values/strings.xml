@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BeatBox</string>
+
+    <string-array name="themes">
+        <item>AppTheme</item>
+        <item>AppTheme1</item>
+        <item>AppTheme2</item>
+    </string-array>
+
+    <string name="def_theme">AppTheme</string>
+    <string name="theme_summary">Appearance</string>
+    <string name="theme_dialog_title">Themes</string>
+    <string name="settings">Settings</string>
+</resources>
